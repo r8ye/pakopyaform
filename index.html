@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Can I Copy Your Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form onsubmit="return redirectToGoogleDrive()">
+
+        <center>
+            <h1>can i copy your assignment?</h1>
+        </center>
+
+        <p>
+            HI, PWEDENG PAKOPYA? 
+            <br>
+            <input type="radio" name="pakopya" value="yes"> sureeeee 
+            <br>
+            <input type="radio" name="pakopya" value="no"> ulol ayoko nga bobo mo ./. 
+            <br><br>
+
+            SUBJECT: <input type="subject"> 
+            <br><br>
+
+            DIFFICULTY: 
+            <br>
+            <input type="radio" name="d" value="ez"> too ez 
+            <br>
+            <input type="radio" name="d" value="saks"> saks lang 
+            <br>
+            <input type="radio" name="d" value="hard"> sooo hard 
+            <br><br>
+
+            PAKILAGAY NA LANG DITO 'YONG SAGOT THANKSSSSS 
+            <br><br>
+            <textarea id="answer" rows="30" cols="60"> </textarea> 
+            <br><br>
+        </p>
+
+        <center>
+            <button type="submit">SUBMIT</button>
+        </center>
+
+    </form>
+
+    <script>
+        function redirectToGoogleDrive() {
+            window.location.href = 'https://drive.google.com/drive/folders/12H-4MV0BIfh-qf87iVo9UDxFHh56yYh2?usp=sharing';
+            return false; 
+        }
+    </script>
+
+</body>
+
+</html>
